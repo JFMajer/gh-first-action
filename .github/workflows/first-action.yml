@@ -16,4 +16,8 @@ jobs:
         run: echo "Hello!"
       - name: Where am I?
         run: pwd
+      - name: multiline scripts
+        run: |
+            echo "first command"
+            echO "second command"
   
