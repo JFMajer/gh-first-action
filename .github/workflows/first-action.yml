@@ -1,0 +1,19 @@
+name: 'My First Workflow'
+
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list 
+        run: ls -la
+      - name: greeting
+        run: echo "Hello!"
+      - name: Where am I?
+        run: pwd
+  
