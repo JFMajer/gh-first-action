@@ -19,5 +19,5 @@ jobs:
       - name: multiline scripts
         run: |
             echo "first command"
-            echO "second command"
+            echo "second command"
   
